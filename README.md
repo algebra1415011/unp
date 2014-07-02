@@ -44,7 +44,7 @@ and run
  
     $ ./byteorder
 
-Some library functions have multi-versions, run
+Some library functions have multiple versions, run
 
     $ ./apue -f
 
@@ -61,9 +61,9 @@ to get the list of library functions.
                      6.13   str_cli using select that handles EOF correct
      ...
 
-Functions start with '#' are multi-version functions.
-Use environment variable to specify the function.
-For example, to run a server add two integers:
+Functions start with '#' are multi-version functions.  
+Use environment variable to specify the function.  
+For example, to run a server add two integers:  
 
     $ str_echo=5.17 ./unp 5.12 
 
