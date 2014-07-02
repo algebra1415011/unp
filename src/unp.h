@@ -51,6 +51,7 @@
 #endif
 
 #ifdef HAVE_POLL_H
+#define __USE_XOPEN
 #include <poll.h>
 #endif
 
