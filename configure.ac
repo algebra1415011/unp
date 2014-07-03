@@ -4,7 +4,7 @@
 AC_PREREQ([2.63])
 AC_INIT([unp], [0.1], [yang@libpix.org])
 AC_CONFIG_SRCDIR([src/unp.h])
-AC_CONFIG_HEADERS([src/config.h])
+AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_FILES([Makefile])
 
